@@ -9,7 +9,7 @@ namespace Day19Regex
 {
     public class Patterns
     {
-        public static string REGEX_PIN = "^[A-Z]{1}[a-z]{2,}$";
+        public static string REGEX_PIN = "^[a-zA-Z0-9]+[-.]?[a-zA-Z0-9]*@[a-zA-Z0-9]+(\\.[a-zA-Z]{2,}){1,2}\\.?[a-zA-Z]{0,2}$";
 
         public bool validate(string name)
         {
@@ -17,3 +17,6 @@ namespace Day19Regex
         }
     }
 }
+
+
+
