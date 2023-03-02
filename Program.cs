@@ -6,17 +6,17 @@
         {
             Patterns pattern = new Patterns();
 
-            Console.WriteLine("Enter your Phone number (should start with our country code): ");
+            Console.WriteLine("Enter your Password (Min 8 Characters) ");
             string name = Console.ReadLine();
             bool val = pattern.validate(name);
 
             if(val)
             {
-                Console.WriteLine("Valid Phone Number");
+                Console.WriteLine("Valid Password");
             }
             else
             {
-                Console.WriteLine("Invalid Phone Number!");
+                Console.WriteLine("Invalid Password!");
             }
         }
     }
