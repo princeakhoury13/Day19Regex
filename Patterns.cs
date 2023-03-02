@@ -9,7 +9,7 @@ namespace Day19Regex
 {
     public class Patterns
     {
-        public static string REGEX_PIN = "^[1-9]{2}[' '][6789]{1}[0-9]{9}$";
+        public static string REGEX_PIN = "^[A-Za-z]{8,}$";
 
         public bool validate(string name)
         {
