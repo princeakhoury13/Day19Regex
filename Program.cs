@@ -6,17 +6,17 @@
         {
             Patterns pattern = new Patterns();
 
-            Console.WriteLine("Enter your Last Name: ");
+            Console.WriteLine("Enter your Email Id: ");
             string name = Console.ReadLine();
             bool val = pattern.validate(name);
 
             if(val)
             {
-                Console.WriteLine("Valid Last Name");
+                Console.WriteLine("Valid Email Id");
             }
             else
             {
-                Console.WriteLine("Invalid Last Name!");
+                Console.WriteLine("Invalid Email Id!");
             }
         }
     }
